@@ -1,0 +1,20 @@
+# Tipos
+type User {
+  id: ID
+  name: String
+  email: String
+  password: String
+}
+
+# Consultas
+type Query {
+  getAllUsers: [User]
+  getUserById(id: ID): User
+}
+
+# Mutaciones
+type Mutation {
+  createUser(name: String, email: String, password: String): Boolean
+  updateUser(id: ID, name: String, email: String, password: String): Boolean
+  deleteUser(id: ID): Boolean
+}

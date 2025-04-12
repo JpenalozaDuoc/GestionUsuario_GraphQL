@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "DB_USERNAME": "USERADMINTO",
+    "DB_PASSWORD": "Oracle12345.",
+    "DB_TNS_ADMIN": "iqkd6ds0zyf8ohax_high",
+    "DB_WALLET_PATH": "/wallet"
+  }
+}

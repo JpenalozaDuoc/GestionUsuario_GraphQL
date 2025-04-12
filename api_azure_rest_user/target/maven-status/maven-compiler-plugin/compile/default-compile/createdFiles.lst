@@ -1,0 +1,8 @@
+userRest\function\GraphQLFunction.class
+userRest\model\User.class
+userRest\connection\UserDAO.class
+userRest\graphql\UserQueryResolver.class
+userRest\function\GraphQLFunction$1.class
+userRest\connection\DatabaseConnection.class
+userRest\Function.class
+userRest\graphql\UserMutationResolver.class
