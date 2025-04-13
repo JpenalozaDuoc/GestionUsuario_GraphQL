@@ -14,7 +14,7 @@
         <java.version>17</java.version>
         <azure.functions.maven.plugin.version>1.37.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>3.1.0</azure.functions.java.library.version>
-        <functionAppName>apiAzureRestUser</functionAppName>
+        <functionAppName>apiAzureGraphQLRestToUser</functionAppName>
     </properties>
 
     <dependencies>
@@ -124,12 +124,12 @@
                     <!-- function app name -->
                     <appName>${functionAppName}</appName>
                     <!-- function app resource group -->
-                    <resourceGroup>java-functions-group</resourceGroup>
+                    <resourceGroup>DSY2207_001A_DCNATIVE2_GRUPO20</resourceGroup>
                     <!-- function app region-->
                     <!-- refers https://github.com/microsoft/azure-maven-plugins/wiki/Azure-Functions:-Configuration-Details#supported-regions for all valid values -->
-                    <region>westus</region>
+                    <region>East US 2</region>
                     <!-- function app service plan name -->
-                    <appServicePlanName>java-functions-app-service-plan</appServicePlanName>
+                    <appServicePlanName>ASP-DSY2207001ADCNATIVE2GRUPO20-bfd9</appServicePlanName>
                     <!-- function pricingTier, default to be consumption if not specified -->
                     <!-- refers https://github.com/microsoft/azure-maven-plugins/wiki/Azure-Functions:-Configuration-Details#supported-pricing-tiers for all valid values -->
                     <!-- <pricingTier></pricingTier> -->
@@ -138,7 +138,7 @@
                     <!-- <disableAppInsights></disableAppInsights> -->
                     <runtime>
                         <!-- runtime os, could be windows, linux or docker-->
-                        <os>windows</os>
+                        <os>Linux</os>
                         <javaVersion>17</javaVersion>
                     </runtime>
                     <appSettings>
